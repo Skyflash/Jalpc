@@ -7,8 +7,10 @@ layout: compress
 
     {% if page.title != 'index' %}
         {% include head.html %}
+        {% seo %}
     {% else %}
         {% include index_head.html %}
+        {% seo %}
     {% endif %}
 
 <body id="page-top" class="landing-page">
