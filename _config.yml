@@ -56,6 +56,7 @@ blog_carousel: on  # blog page carousel switch
 
 # scss
 sass:
+  sass_dir: _sass
   style: compressed
 
 # Build settings
