@@ -27,7 +27,7 @@ author:  # change following line to your infomation.
     - name: fa-linux
   skill_icon2:
     - name: fa-apple
-    - name: fa-nintendo-switch
+    - name: fa-chrome
   desc: Introduce myself will be here.  # Describe yourself.
 
 # comment
