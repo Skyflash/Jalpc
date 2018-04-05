@@ -14,13 +14,13 @@
 
 - id: skills
   i18n: nav.skills
-  name: Skills
+  name: Competenze
   tpl: skills.html
   css: team
 
 - id: projects
   i18n: nav.projects
-  name: Projects
+  name: Progetti
   tpl: projects.html
   css: project
 
