@@ -2,7 +2,7 @@ $(document).ready(function() {
   var i18nOpts = {
     lng: 'it',
     getAsync: true,
-    fallbackLng: 'it',
+    fallbackLng: 'en',
     debug: true,
     resGetPath: 'static/locales/__lng__.json'
   };
