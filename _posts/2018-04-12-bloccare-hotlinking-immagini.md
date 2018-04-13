@@ -4,7 +4,7 @@ title:  "Come bloccare l'hotlinking delle immagini con .htaccess"
 date:   2018-04-13
 lang: it_IT
 description: "Come bloccare l'hotlinking delle immagini con .htaccess"
-image: /static/assets/img/blog//hotlinking-htaccess/kenny-mccormick.jpg
+image: /static/assets/img/blog/hotlinking-htaccess/kenny-mccormick.jpg
 keywords: "htaccess,apache,wordpress"
 categories: [Wordpress,Apache]
 tags: [htaccess,apache,wordpress]
