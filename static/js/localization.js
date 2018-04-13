@@ -3,7 +3,7 @@ $(document).ready(function() {
     load: 'unspecific',
     lng: 'it',
     getAsync: true,
-    fallbackLng: 'false',
+    fallbackLng: 'en',
     debug: true,
     resGetPath: 'static/locales/__lng__.json'
   };
