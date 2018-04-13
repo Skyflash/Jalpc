@@ -2,8 +2,10 @@
 layout: post
 title:  "La traduzione in italiano di Morrowind, Tribunal e Bloodmoon"
 date:   2018-04-05
-desc: "La storia della traduzione di Morrowind in Italiano creata dal team ITP. Scarica traduzione di Morrowind, Tribunal e Bloodmoon"
-keywords: "Jalpc,Jekyll,gh-pages,website,blog,easy"
+lang: it_IT
+description: "La storia della traduzione di Morrowind in Italiano creata dal team ITP. Scarica traduzione di Morrowind, Tribunal e Bloodmoon"
+image: /static/assets/img/blog/29-morrowind.webp
+keywords: "morrowind,traduzione,itp"
 categories: [Games]
 tags: [Morrowind,ITP,Games]
 icon: fa-gamepad
