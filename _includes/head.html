@@ -14,8 +14,10 @@
   <title>
     {% if page.title != "index" %}
         {{ site.title }}|{{ page.title }}
+        {% seo %}
     {% else %}
         {{ site.title }}
+        {% seo %}
     {% endif %}
   </title>
   <!-- favicon -->
