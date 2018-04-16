@@ -54,6 +54,7 @@ donation: off  # type 'on'/'off' to choice display donation button at post page 
 index_carousel: off  # index page carousel switch
 blog_carousel: off  # blog page carousel switch
 
+permalink: pretty
 plugins:
   - jekyll-seo-tag
 

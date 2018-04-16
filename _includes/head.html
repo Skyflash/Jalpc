@@ -10,16 +10,15 @@
   {% endif %}
   <meta name="author" content="{{ site.author.name }}">
   <meta name="baseurl" content="{{ site.baseurl }}">
-
+<!--
   <title>
     {% if page.title != "index" %}
         {{ site.title }}|{{ page.title }}
-        {% seo %}
     {% else %}
         {{ site.title }}
-        {% seo %}
     {% endif %}
   </title>
+-->
   <!-- favicon -->
   <link rel="shortcut icon" href="{{ "/static/assets/img/favicon.jpg" | prepend: site.baseurl }}">
 
@@ -30,13 +29,5 @@
   <!-- Main Scripts -->
   <script src="{{"/static/assets/app-20180413.min.js"| prepend: site.baseurl }}"></script>
   <script src="{{"/static/assets/blog-20180413.min.js"| prepend: site.baseurl }}"></script>
-
-  <!-- Google AdSense -->
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-6196184620180413",
-      enable_page_level_ads: true
-    });
-  </script>
-</head>
+  {% seo %}
+  </head>
