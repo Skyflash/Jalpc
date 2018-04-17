@@ -32,7 +32,7 @@ author:  # change following line to your infomation.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-#  name: Skyflash
+  name: Skyflash
 
 # analytics
 ## google analytics
@@ -54,7 +54,13 @@ donation: off  # type 'on'/'off' to choice display donation button at post page 
 index_carousel: off  # index page carousel switch
 blog_carousel: off  # blog page carousel switch
 
+# Jekyll-SEO-tag settings
+lang: it_IT
 permalink: pretty
+## Codici di verifica
+webmaster_verifications:
+#  google:
+
 plugins:
   - jekyll-seo-tag
 
