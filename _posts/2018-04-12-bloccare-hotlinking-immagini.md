@@ -3,19 +3,19 @@ layout: post
 title:  "Come bloccare l'hotlinking delle immagini con .htaccess"
 date:   2018-04-13
 lang: it_IT
-description: "Come bloccare l'hotlinking delle immagini con .htaccess"
-image: /static/assets/img/blog/hotlinking-htaccess/kenny-mccormick.jpg
+description: "L'hotlinking consiste nel mostrare una o più risorse (tipicamente immagini) all’interno di una pagina web, ad insaputa del proprietario del sito originale. Vediamo come impedirla, usando .htaccess e Apache"
+image: /static/assets/img/blog/hotlinking-htaccess/NoHotlinking.jpg
 keywords: "htaccess,apache,wordpress"
-categories: [Wordpress,Apache]
+categories: [Wordpress]
 tags: [htaccess,apache,wordpress]
 icon: fa-wordpress
 ---
 
-Quando si parla di hotlinking  ci si riferisce ad una pratica – molto abusata soprattutto da un certo tipo di blogger – che permette di mostrare una risorsa (tipicamente un’immagine) all’interno della propria pagina web senza senza che questa sia presente all’interno del proprio spazio, sfruttando quindi la banda e le risorse del server esterno che la ospita fisicamente.
+Quando si parla di hotlinking  ci si riferisce ad una pratica – molto abusata – che permette di mostrare una risorsa (tipicamente un’immagine) all’interno di una pagina web senza che questa sia presente all’interno del proprio spazio, sfruttando quindi la banda e le risorse del server esterno che la ospita fisicamente.
 
 # L’HOTLINKING DANNEGGIA IL TUO SITO
 
-Facciamo un esempio. L’immagine che vedete qui sotto è stata caricata direttamente all’interno dello spazio destinato a questo blog. Il server web non fa altro che andare a caricare una risorsa interna (l’immagine stessa) e mostrarla al visitatore, senza alcun carico elaborativo extra.
+Facciamo un esempio. L’immagine che vedete qui sotto è stata caricata direttamente su un mio sito (ospite originale di questo articolo). Il server web non fa altro che andare a caricare una risorsa interna (l’immagine stessa) e mostrarla al visitatore, senza alcun carico elaborativo extra.
 
 ![Kenny]({{ site.img_path }}/hotlinking-htaccess/kenny-mccormick.jpg)
 
@@ -28,7 +28,7 @@ Il codice dell’immagine è il seguente:
 Un sito esterno, invece di effettuare il download dell’immagine e di caricarla sul proprio server (cosa che, oltretutto, è sempre consigliabile in quanto migliora moltissimo i tempi di caricamento e le prestazioni generali del sito), ottiene il collegamento diretto alla risorsa e lo include all’interno di una propria pagina.
 
 ```html
-<img src="http://www.skyflash.it/wp-content/uploads/2012/05/kenny-mccormick.jpg" alt="" border="0" width="320" height="240" />
+<img src="https://www.skyflash.it/wp-content/uploads/2012/05/kenny-mccormick.jpg" alt="" border="0" width="320" height="240" />
 ```
 
 Il risultato sarà che il secondo sito, eterno al nostro, sfrutta l’immagine senza però sacrificare il proprio spazio web, mentre il nostro sito, su cui risiede l’immagine, sarà sottoposto ad un carico eccessivo (ed assolutamente non richiesto nè tanto meno gradito) sia per quanto riguarda la propria banda passante che per le risorse del server.
@@ -138,3 +138,4 @@ Risorse esterne:
 - [Impedire l’hotlinking delle immagini con il file .htaccess](http://gabrieleromanato.com/2012/03/impedire-hotlinking-immagini-htaccess/)
 - [Proteggiamoci dall’hotlinking con un semplice file](http://vincenzodibiaggio.it/2008/07/11/proteggiamoci-dallhotlinking-con-un-semplice-file-htaccess/)
 - [Stop image hotlinking with .htaccess](http://www.thewebsqueeze.com/web-design-tutorials/stop-image-hotlinking-with-htaccess.html)
+- [Il post originale](https://www.skyflash.it/internet-reti/sicurezza/come-bloccare-lhotlinking-delle-immagini-tramite-htaccess/6552/)
