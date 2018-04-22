@@ -22,8 +22,8 @@
   img: /static/assets/img/landing/me.jpg
   desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
 
-- name: Google
-  i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/google.png
-  desc: This is another project.
+- name: La Traduzione di Morrowind
+  i18n: morrowind-translation
+  url: https://www.skyflash.it/traduzione-italiano-morrowind-tribunal-bloodmoon/3581/
+  img: /static/assets/img/blog/29-morrowind.webp
+  desc: La traduzione in Italiano di Morrowind, Tribunal e Bloodmoon - A cura dell'ITP
