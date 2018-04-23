@@ -8,6 +8,10 @@ baseurl:  '' # if you have suburl as homepage like '/homepage', please change it
 url: https://cristiancastellari.it  # url should be 'http://<github_username>.github.io/homepage' as before
 img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
+# Jekyll-SEO-tag settings
+lang: it_IT
+permalink: /blog/:categories/:title/
+
 # author -- index page "about me" section
 author:  # change following line to your infomation.
   name: Cristian Castellari  # Be used at blog posts' author.
@@ -54,9 +58,6 @@ donation: off  # type 'on'/'off' to choice display donation button at post page 
 index_carousel: off  # index page carousel switch
 blog_carousel: off  # blog page carousel switch
 
-# Jekyll-SEO-tag settings
-lang: it_IT
-permalink: pretty
 ## Codici di verifica
 webmaster_verifications:
 #  google:
