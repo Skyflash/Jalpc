@@ -7,7 +7,7 @@ description: "L'hotlinking consiste nel mostrare una o più risorse (tipicamente
 image: /static/assets/img/blog/hotlinking-htaccess/NoHotlinking.jpg
 keywords: "htaccess,apache,wordpress"
 categories: [Wordpress,Apache]
-permalink: /blog/apache/:title/
+permalink: /blog/wordpress/:title/
 tags: [htaccess,apache,wordpress]
 icon: fa-wordpress
 ---
