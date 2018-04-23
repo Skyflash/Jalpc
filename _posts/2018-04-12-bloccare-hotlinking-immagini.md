@@ -6,7 +6,8 @@ lang: it_IT
 description: "L'hotlinking consiste nel mostrare una o più risorse (tipicamente immagini) all’interno di una pagina web, ad insaputa del proprietario del sito originale. Vediamo come impedirla, usando .htaccess e Apache"
 image: /static/assets/img/blog/hotlinking-htaccess/NoHotlinking.jpg
 keywords: "htaccess,apache,wordpress"
-categories: [Wordpress]
+categories: [Wordpress,Apache]
+permalink: /blog/apache/:title/
 tags: [htaccess,apache,wordpress]
 icon: fa-wordpress
 ---
