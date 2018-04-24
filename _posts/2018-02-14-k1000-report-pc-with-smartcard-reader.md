@@ -34,17 +34,33 @@ The script does not depend on K1000, so if you don't have KACE SMA in your envir
 
 ## Setup
 
-### The KScript
+### The KScript (smarcard.vbs)
 
-1. Edit [the script](smartcard.vbs) **line 4** with the path where you want to save the output file. In our environment every PC has a _“C:\Tools”_ directory for service purpose, so I decided to save the output there.
+* Download [the script](/static/assets/files/blog/kace-smartcard/smartcard.vbs) or copy & paste the following code:
 
-```vbs
+```bash
+strComputer = "."
+Dim log
+Set log = Wscript.CreateObject("Scripting.Filesystemobject")
+Set f = log.CreateTextFile("C:\Tools\smartcard.txt", 2)
+Set objWMIService = GetObject("winmgmts:\\" & strComputer & "\root\CIMV2") 
+Set colItems = objWMIService.ExecQuery( _
+    "SELECT * FROM Win32_PnPSignedDriver Where DeviceClass = 'SMARTCARDREADER'",,48) 
+For Each objItem in colItems 
+    f.WriteLine "DeviceClass: " & objItem.DeviceClass
+Next
+f.Close
+```
+
+* Edit **line 4** with the path where you want to save the output file. In our environment every PC has a _“C:\Tools”_ directory for service purpose, so I decided to save the output there.
+
+```
 Set f = log.CreateTextFile("C:\Tools\smartcard.txt", 2)
 ```
 
-2. Go to your _K1000 Dashboard_, then go to _Scripting_ and create a **New Script** (_Choose Action / New_)
+* Go to your _K1000 Dashboard_, then go to _Scripting_ and create a **New Script** (_Choose Action / New_)
 
-3. Name the script as your wish (for example: Check Smart Card Reader) and follow these steps:
+* Name the script as your wish (for example: Check Smart Card Reader) and follow these steps:
 
 #### Script Basic Settings
 
