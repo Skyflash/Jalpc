@@ -60,7 +60,7 @@ blog_carousel: off  # blog page carousel switch
 
 ## Codici di verifica
 webmaster_verifications:
-#  google:
+  google: FByo2xcDR6RaUId2DdQjhAmq9YMjlEhVlL0OgK8KDzU
 
 plugins:
   - jekyll-seo-tag
