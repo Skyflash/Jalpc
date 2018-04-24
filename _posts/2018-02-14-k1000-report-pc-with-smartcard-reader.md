@@ -4,7 +4,7 @@ title:  "[K1000 Scripting] Find and report all PCs with a smartcard reader insta
 date:   2018-02-14
 description: "Find and report all managed Windows PCs in K1000 Inventory with a smartcard reader installed."
 lang: en_US
-image: /static/assets/img/blog/zombout.webp
+image: /static/assets/img/blog/kace/smartcard/kace.jpg
 keywords: "kace,k1000,script,vbs,visualbasic,smartcard,security,encryption"
 categories: [Kace]
 tags: [kace,script,vbs,smartcard,security,encryption]
