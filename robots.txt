@@ -2,5 +2,5 @@
 title: robots
 ---
 User-agent: *
-Disallow: {{site.url}}/assets/
+Disallow: /assets/
 Sitemap: {{site.url}}/sitemap.xml
