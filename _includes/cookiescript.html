@@ -1,0 +1,57 @@
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"
+/>
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+    window.addEventListener("load", function () {
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#000"
+                },
+                "button": {
+                    "background": "#f1d600"
+                }
+            },
+            "position": "top",
+            "type": "opt-in",
+            "content": {
+                "message": "Questo sito utilizza cookies. I cookies vengono usati perché tu possa avere la migliore esperienza di navigazione. Se continui ad utilizzare questo sito noi assumiamo che tu ne sia felice.",
+                "dismiss": "No, niente cookies!",
+                "allow": "Accetta Cookies",
+                "link": "Maggiori Informazioni",
+                "href": "/policy/"
+            },
+            onInitialise: function (status) {
+                var type = this.options.type;
+                var didConsent = this.hasConsented();
+                if (type == 'opt-in' && didConsent) {
+                    // enable cookies
+                }
+                if (type == 'opt-out' && !didConsent) {
+                    // disable cookies
+                }
+            },
+            
+            onStatusChange: function(status, chosenBefore) {
+                var type = this.options.type;
+                var didConsent = this.hasConsented();
+                if (type == 'opt-in' && didConsent) {
+                    // enable cookies
+                }
+                if (type == 'opt-out' && !didConsent) {
+                    // disable cookies
+                }
+            },
+            
+            onRevokeChoice: function() {
+                var type = this.options.type;
+                if (type == 'opt-in') {
+                    // disable cookies
+                }
+                if (type == 'opt-out') {
+                    // enable cookies
+                }
+            },
+        })
+    });
+</script>

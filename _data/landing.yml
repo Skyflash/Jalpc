@@ -36,3 +36,10 @@
   name: Links
   tpl: links.html
   css: contact
+
+- id: policy
+  i18n: nav.policy
+  name: Policy
+  tpl: cookiepolicy.html
+  page: policy/
+  css: 
