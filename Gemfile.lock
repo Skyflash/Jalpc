@@ -104,8 +104,6 @@ GEM
     tilt (2.0.8)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2018.5)
-      tzinfo (>= 1.0.0)
     wdm (0.1.1)
 
 PLATFORMS
@@ -117,7 +115,6 @@ DEPENDENCIES
   jekyll-archives
   jekyll-seo-tag
   jemoji
-  tzinfo-data
   wdm (>= 0.1.0)
 
 BUNDLED WITH
