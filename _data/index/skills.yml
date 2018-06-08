@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Quest KACE, Windows Server, Linux, IBM Notes/Domino, Citrix XenApp/xenDesktop, Active Directory, WordPress, Git, HTML/CSS, Innovazione
-percentage: 99, 85, 80, 85, 85, 85, 90, 55, 65, 90
+aspects: Quest KACE, Windows Server, Linux/Shell, IBM Notes/Domino, Citrix XenApp/xenDesktop, Active Directory, WordPress, Git, HTML/CSS
+percentage: 99, 90, 85, 85, 85, 85, 90, 65, 65
