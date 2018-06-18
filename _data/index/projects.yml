@@ -3,7 +3,7 @@
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: Kace SMA Tools
   i18n: kace-sma-tools
-  #gh_user: kace-sma-tools
+  gh_user: skyflash
   url: https://github.com/kace-sma-tools
   img: /static/assets/img/landing/kacesmatools.png
   desc: Useful scripts and ideas for Quest Kace Systems Management Appliace (K1000). 
