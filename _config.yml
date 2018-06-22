@@ -1,12 +1,28 @@
-# Welcome to Jekyll!
-
-# Website settings
+#
+###################################
+# Site wide configuration
+####################################
+#
 title: Cristian Castellari
 description: Il sito personale di Cristian Castellari
-keywords: cristian,castellari,blog,jekyll,gh-pages
+keywords: cristian castellari,blog,jekyll,gh-pages,kace
 baseurl:  '' # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://cristiancastellari.it  # url should be 'http://<github_username>.github.io/homepage' as before
 img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone: Europe/Rome
+highlighter: rouge
+markdown: kramdown
+excerpt_separator: <!--more-->
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # Jekyll-SEO-tag settings
 lang: it_IT
@@ -81,11 +97,6 @@ jekyll_admin:
 #    - datafiles
 #    - configuration
 
-# other settings
-highlighter: rouge
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+
 
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
