@@ -27,9 +27,16 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+#
+###################################
 # Jekyll-SEO-tag settings
+####################################
+#
 lang: it_IT
 permalink: /blog/:categories/:title/
+
+webmaster_verifications:
+  google: FByo2xcDR6RaUId2DdQjhAmq9YMjlEhVlL0OgK8KDzU
 
 #
 ###################################
@@ -82,10 +89,6 @@ donation: off  # type 'on'/'off' to choice display donation button at post page 
 ## carousels
 index_carousel: off  # index page carousel switch
 blog_carousel: off  # blog page carousel switch
-
-## Codici di verifica
-webmaster_verifications:
-  google: FByo2xcDR6RaUId2DdQjhAmq9YMjlEhVlL0OgK8KDzU
 
 plugins:
   - jekyll-seo-tag
