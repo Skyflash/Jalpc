@@ -6,10 +6,9 @@
   <meta name="keywords" content="{{ site.keywords }}">
   <meta name="robots" content="index,follow" />
   <meta name="rating" content="{{ site.settings.rating }}">
-
   <!-- favicon -->
   <link rel="shortcut icon" href="{{ "/static/assets/img/favicon.jpg" | prepend: site.baseurl }}">
-
+  {% seo %}
   <!-- Main CSS -->
   <link href="{{ "/static/assets/app-20180607.min.css" | prepend: site.baseurl }}" rel="stylesheet">
   <link href="{{ "/static/css/custom.css" | prepend: site.baseurl }}" rel="stylesheet">
@@ -22,5 +21,4 @@
   {% if site.data.index.language %}
   <script src="{{"/static/assets/i18-20180607.min.js"| prepend: site.baseurl }}"></script>
   {% endif %}
-  {% seo %}
 </head>

@@ -35,6 +35,10 @@ kramdown:
 lang: it_IT
 permalink: /blog/:categories/:title/
 
+twitter:
+  card: summary
+  username: BloggerStanco
+
 webmaster_verifications:
   google: FByo2xcDR6RaUId2DdQjhAmq9YMjlEhVlL0OgK8KDzU
 
@@ -52,7 +56,7 @@ author:  # change following line to your infomation.
   github_username: skyflash  # Leave blank if you don't have now
   linkedin_id: cristiancastellari # Leave blank if you don't have now
   facebook_username: cristian.castellari  # Leave blank if you don't have now
-  twitter_username: BloggerStanco  # Leave blank if you don't have now
+  twitter: BloggerStanco
   email: c.castellari@gmail.com  # Leave blank if you don't have now
   cv: https://cv.cristiancastellari.it  # An online CV can be printed as PDF, leave blank if you don't have now
 
