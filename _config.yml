@@ -4,8 +4,8 @@
 ####################################
 #
 title: Cristian Castellari
-description: Il sito personale di Cristian Castellari
-keywords: cristian castellari,blog,jekyll,gh-pages,kace
+description: "Sito personale e portfolio di Cristian Castellari: Tecnico e Manager IT, nel tempo libero mi dedico alla famiglia e gioco con PS4 e Switch"
+keywords: cristian, castellari, blog, jekyll, gh-pages, kace, github, wordpress
 baseurl:  '' # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://cristiancastellari.it  # url should be 'http://<github_username>.github.io/homepage' as before
 img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
