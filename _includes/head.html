@@ -2,17 +2,15 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1; minimum-scale=1; user-scalable=no;">
-  {% if page.desc %}
-    <meta content="{{ page.desc }}" name="description">
-  {% endif %}
-  {% if page.keywords %}
-    <meta name="keywords" content="{{ page.keywords }}">
-  {% endif %}
+  {% if page.description %}<meta content="{{ page.description }}" name="description">{% endif %}
+  {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
   <meta name="author" content="{{ site.author.name }}">
   <meta name="baseurl" content="{{ site.baseurl }}">
-<!--
+  <meta name="robots" content="index,follow" />
+  <meta name="rating" content="{{ site.settings.rating }}">
+  <!--
   Blog
--->
+  -->
   <!-- favicon -->
   <link rel="shortcut icon" href="{{ "/static/assets/img/favicon.jpg" | prepend: site.baseurl }}">
 
