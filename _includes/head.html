@@ -21,7 +21,7 @@
   <link href="/static/css/{{ css_name | prepend: site.baseurl }}" rel="stylesheet" media="screen">
   {% endfor %}{% endif %}
   <!-- Post/Page Specific CSS -->
-  {% if page.custom_css %}{% for css_name in page.custom_css %}
+  {% if page.custom_css and page.title != 'Blog' %}%}{% for css_name in page.custom_css %}
   <link href="/static/css/{{ css_name | prepend: site.baseurl }}" rel="stylesheet" media="screen">
   {% endfor %}{% endif %}
   <!-- Main Scripts -->
