@@ -1,12 +1,3 @@
-.landing-page .carousel-caption h1,
-.landing-page .carousel-caption p {
-    text-transform: uppercase;
-}
-
-button.dim {
-    text-transform: uppercase;
-}
-
 h1,
 h2,
 h3,
@@ -45,6 +36,11 @@ h4,
 h5 {
     margin-top: 5px;
     font-weight: 600;
+}
+
+img {
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .nav>li>a {
@@ -2023,11 +2019,6 @@ ul.clear-list:first-child {
 .article h1 {
     font-size: 48px;
     color: #2F4050;
-}
-
-.article p {
-    font-size: 15px;
-    line-height: 26px;
 }
 
 .article-title {
