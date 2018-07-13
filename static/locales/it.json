@@ -20,9 +20,9 @@
   },
   "projects":{
     "my_projects": "I Miei Progetti",
-    "kace-sma-tools": "Useful scripts and ideas for Quest Kace Systems Management Appliace (K1000).",
-    "cpython": "This project is other's project. I use another request to get repo's information.",
-    "familycode": "This is another project."
+    "kace-sma-tools": "Idee, script e suggerimenti utili per Quest Kace Systems Management Appliace (precedentmente noto come K1000)",
+    "skyflash-github": "Il repository GitHub su cui viene sviluppato questo sito",
+    "k1000-database-queries": "Una collezione di queries MySQL per Il KACE 1000 (Quest Kace Systems Management Appliance)"
   },
   "career":{
     "my_career": "Principali Esperienze Lavorative",
@@ -38,10 +38,10 @@
     "ucloud_des": "In ucloud, I started to deal with servers and Linux system and use shell scripts to manage massive server.",
     "ucloud_date": "Sep. 2013",
     "ucloud_job": "Dev Ops",
-    "college": "Graduation",
-    "college_des": "At July 2013,I graduated from college and started my IT technology tour.",
-    "college_date": "Jul. 2013",
-    "college_job": "Student"
+    "sogema": "SO.GE.M.A. SpA",
+    "sogema_desc": "Ho progettato e gestito l'intera infrastruttura del Gruppo, realizzando un progetto di consolidamento e centralizzazione che ha ridotto i costi e permesso a tutti gli utenti (oltre 100) di lavorare in un ambiente funzionale ed uniforme.",
+    "sogema_date": "Gennaio 2006 - Dicembre 2014",
+    "sogema_job": "Responsabile IT"
   },
   "blog":{
     "my_blog": "Blog"
